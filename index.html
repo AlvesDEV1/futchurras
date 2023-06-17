@@ -67,10 +67,10 @@
         }
 
         .nav-link:hover {
-                background-color: rgba(2, 44, 2, 0.678);
-                transform: scale(1.10);
-                cursor: pointer;
-            }
+            background-color: rgba(2, 44, 2, 0.678);
+            transform: scale(1.10);
+            cursor: pointer;
+        }
 
         .nav-item {
             margin: 0 15px;
@@ -211,36 +211,58 @@
             justify-content: center;
         }
 
+        .divjogos {
+            font-size: 20px;
+        }
+
         .diretoria {
             padding-top: 50px;
             display: flex;
             justify-content: right;
         }
-        
+
         .result1 {
-            border-style: solid; 
+            border-style: solid;
             border-width: 0px;
             width: 300px;
             float: left;
             margin-right: 5px;
-            max-width: 300px; 
+            max-width: 300px;
         }
 
         .result2 {
-            border-style: solid; 
+            border-style: solid;
             border-width: 0px;
             width: 300px;
             float: right;
             margin-left: 5px;
             max-width: 300px;
         }
-        
+
         .result3 {
-            border-style: solid; 
+            border-style: solid;
             border-width: 0px;
             width: 300px;
             float: left;
             margin-right: 5px;
+            max-width: 300px;
+        }
+
+        .result4 {
+            border-style: solid;
+            border-width: 0px;
+            width: 300px;
+            float: right;
+            margin-left: 5px;
+            max-width: 300px;
+        }
+
+        .video {
+            border-style: solid;
+            border-width: 0px;
+            width: 300px;
+            float: right;
+            margin-left: 5px;
             max-width: 300px;
         }
     </style>
@@ -258,7 +280,8 @@
                     </li>
                     <li class="nav-item"><a href="https://alvesdev1.github.io/times/" class="nav-link">Times</a></li>
                     <li class="nav-item"><a href="https://alvesdev1.github.io/jogos/" class="nav-link">Jogos</a></li>
-                    <li class="nav-item"><a href="https://alvesdev1.github.io/tabelas/" class="nav-link">Tabelas</a></li>
+                    <li class="nav-item"><a href="https://alvesdev1.github.io/tabelas/" class="nav-link">Tabelas</a>
+                    </li>
                     <li class="nav-item"><a href="https://alvesdev1.github.io/sobre/" class="nav-link">Sobre</a></li>
                 </ul>
                 <!--
@@ -296,28 +319,71 @@
         </nav>
 
         <div class="torneio">
+            <h1>PREPAREM-SE!</h1>
+            <h1 style="font-size: 20px;">A 3ª rodada promete ser a melhor até agora.</h1>
+            <p>O primeiro confronto da rodada será Aravig x Pavilhão 6, um jogo que já está marcado por provocações de jogadores e promete fortes emoções. Após o término do último jogo da 2ª rodada entre PSG x Pavilhão 6, foi postado um vídeo nas redes sociais onde o zagueiro e capitão do time alvinegro Rafael Bi aparece provocando o atacante Luquinhas do Aravig, seu próximo adversário. Confira no vídeo abaixo:</p>
+
+            <video class="video" width="300" poster="capanews.png" controls>
+                <source src="estrevista.mov">
+            </video>
+            
+            <p>... Climão entre os rivais em. Já podemos dizer que esperamos muita emoção e entrega dentro de campo após essa troca de provocações entre os adversários. Nada representa mais o futebol brasileiro do que uma boa e saudável provocação e zoação entre adversários e amigos quando se enfrentam.</p>
+
+            <p>RedBull e PSG encerram esta rodada em um confronto inédito que mal esperamos para assistir. Será que Marco, capitçao do PSG, fará novamente o sacrifício de jogar com a lesão grava no joelho. Bom, só podemos dizer uma coisa sobre ele: MALUCO!</p>
+
+            <p>Esperamos que essa rodada continue nos trazendo tudo que o torneio nos entregou até aqui. Muita zoação, disputa, brincadeiras e risadas. Afinal, esse é o intuito do nosso torneio.</p>
+
             <h1>2ª RODADA</h1>
-            <p>Olá, amantes da comédia e do futebol! Preparados para acompanhar as peripécias da 3ª rodada do torneio FUTchurras? Hoje presenciamos uma verdadeira batalha épica entre os times RedBull e Aravig, na disputa pela lanterna!</p>
+            <p> Nesta rodada presenciamos uma verdadeira batalha épica entre os times RedBull e Aravig, na disputa pela lanterna! Além de um jogo com uma reviravolta impressionante entre PSG e Pavilhão 6.</p>
             
             <img class="result3" src="./result3.png" alt="resultado 3">
-            
-            <p>O jogo começa e já dá para perceber que o RedBull está com suas asas murchas. Parece que os touros beberam uma garrafa de cachaça ao invés do energético. Na disputa pela lanterna do torneio, o RedBull sai na frente e perde o jogo por 3x1 para o Aravig que surpreende, mesmo com dois desfalques e ajuda de jogadores improvisados. Lucas Silva sendo um deles, fez seu nome marcando 2 gols, o outro foi marcado por Tio Frágil garantindo a vitória da equipe. O RedBull consegue marcar um gol de honra, marcado por Lucas Neutro (o homem de poucas palavras), evitando o vexame total. Mas a vitória é do Aravig, que celebra a garantia dos 3 pontos. <br> E assim termina essa jornada cheia de trapalhadas, com o RedBull surpreendendo e vencendo a batalha pela última posição. Semana que vem tem o encerramento da rodada com PSG x Pavilhão 6, um jogo que promete fortes emoções! Até lá, amantes do futebol! </p>
+
+            <p>O jogo começa e já dá para perceber que o RedBull está com suas asas murchas. Parece que os touros
+                beberam uma garrafa de cachaça ao invés do energético. Na disputa pela lanterna do torneio, o RedBull
+                sai na frente e perde o jogo por 3x1 para o Aravig que surpreende, mesmo com dois desfalques e ajuda de
+                jogadores improvisados. Lucas Silva sendo um deles, fez seu nome marcando 2 gols, o outro foi marcado
+                por Tio Frágil garantindo a vitória da equipe. O RedBull consegue marcar um gol de honra, marcado por
+                Lucas Neutro (o homem de poucas palavras), evitando o vexame total. Mas a vitória é do Aravig, que
+                celebra a garantia dos 3 pontos. <br> Vamos ver como termina essa jornada cheia de trapalhadas no jogo de volta, desta vez o RedBull
+                surpreendeu e saiu na frente na batalha pela última posição.</p> 
+                
+                <p>O encerramento da rodada foi com PSG x Pavilhão 6, um jogo que prometeu e entregou fortes emoções!</p>
+
+                <img class="result4" src="./result4.png" alt="resultado 4">
+
+                <p>O último jogo da rodada começou de forma lenta e democrática, com ambos os times buscando espaços e oportunidades de gol. O PSG conseguiu aproveitar melhor as chances e terminou o primeiro tempo com uma vantagem de 2x0 sobre o favorito Pavilhão 6. Já no segundo tempo, o PSG retornou ao campo desfilando confiança e acabou sofrendo uma reviravolta impressionante. O Pavilhão 6 demonstrou sua força e determinação, marcando sete gols de forma
+                avassaladora com destaques para VT e Raphael marcando 4 e 3 gols respectivamente. Enquanto isso, o PSG conseguiu marcar apenas mais um gol. Com essa performance impressionante, o Pavilhão 6 conquistou uma vitória expressiva, vencendo o jogo por 7x3. O resultado mostrou a capacidade do Pavilhão 6 em se recuperar de uma desvantagem e dominar o jogo no segundo tempo, superando as expectativas e surpreendendo o PSG. Foi um confronto emocionante e cheio de reviravoltas, que certamente deixou todos empolgados e ansiosos para os próximos jogos do torneio FUTchurras.</p>
             
             <h1>1ª RODADA</h1>
-            <p>Dois confrontos emocionantes deram início ao nosso torneio. Essa primeira rodada do torneio FUTchurras trouxe resultados interessantes, com o PSG mostrando sua força ao vencer o Aravig por 3 a 0, e o temido Pavilhão 6 fazendo jus ao favoritismo vencendo de forma convincente por 5 a 2  o RedBull. Foi um começo emocionante para o torneio, com muita ação e expectativa para os próximos jogos. </p>
-            
+            <p>Dois confrontos emocionantes deram início ao nosso torneio. Essa primeira rodada do torneio FUTchurras
+                trouxe resultados interessantes, com o PSG mostrando sua força ao vencer o Aravig por 3 a 0, e o temido
+                Pavilhão 6 fazendo jus ao favoritismo vencendo de forma convincente por 5 a 2 o RedBull. Foi um começo
+                emocionante para o torneio, com muita ação e expectativa para os próximos jogos. </p>
+
             <img class="result1" src="./result1.png" alt="resultado 1">
 
-            <p>No primeiro jogo, o Aravig atuou como mandante, mas enfrentou uma derrota significativa contra o time PSG, que venceu por 3 a 0. O PSG mostrou um desempenho sólido em campo, conseguindo controlar o jogo e marcar três gols, enquanto o Aravig lutou para encontrar sua melhor forma e não conseguiu marcar nenhum gol.</p>
+            <p>No primeiro jogo, o Aravig atuou como mandante, mas enfrentou uma derrota significativa contra o time
+                PSG, que venceu por 3 a 0. O PSG mostrou um desempenho sólido em campo, conseguindo controlar o jogo e
+                marcar três gols, enquanto o Aravig lutou para encontrar sua melhor forma e não conseguiu marcar nenhum
+                gol.</p>
+
+                <p>O encerramento da rodada foi com Pavilhão 6 x RedBull, um jogo incrível, cheio de gols e com o time alvinegro mostrando o motivo de ser o favirito!</p>
 
             <img class="result2" src="./result2.png" alt="resultado 2">
 
-            <p>No segundo confronto, o temido Pavilhão 6 entrou em campo contra o RedBull. A partida foi intensa e cheia de emoção. O Pavilhão 6 mostrou sua força e habilidade, conquistando uma vitória impressionante por 5 a 2. Eles demonstraram um jogo ofensivo eficiente, marcando cinco gols e garantindo uma vantagem confortável sobre o RedBull, que marcou dois gols, mas não conseguiu igualar a pontuação.</p>
+            <p>No segundo confronto, o temido Pavilhão 6 entrou em campo contra o RedBull. A partida foi intensa e cheia
+                de emoção. O Pavilhão 6 mostrou sua força e habilidade, conquistando uma vitória impressionante por 5 a
+                2. Eles demonstraram um jogo ofensivo eficiente, marcando cinco gols e garantindo uma vantagem
+                confortável sobre o RedBull, que marcou dois gols, mas não conseguiu igualar a pontuação.</p>
 
-            <p>Para a 2ª rodada os lanternas Aravig e RedBull se enfrentarão na busca pela primeira vitória no torneio, em jogo marcado para o dia <b>10/06/23 às 09:00h</b>. <br> Lutando pela liderança, o PSG enfrentará o Pavilhão 6 como mandante, um jogo que promete fortes emoções e acontecerá dia <b>17/06/23 às 09:00h</b>.</p>
-            
-            <p><b>*Confira o calendário de jogos e as tabelas através do menu no canto superior direito da tela!*</b></p>
-            
+            <p>Para a 2ª rodada os lanternas Aravig e RedBull se enfrentarão na busca pela primeira vitória no torneio,
+                em jogo marcado para o dia <b>10/06/23 às 09:00h</b>. <br> Lutando pela liderança, o PSG enfrentará o
+                Pavilhão 6 como mandante, um jogo que promete fortes emoções e acontecerá dia <b>17/06/23 às 09:00h</b>.
+            </p>
+
+            <p><b>*Confira o calendário de jogos e as tabelas através do menu no canto superior direito da tela!*</b>
+            </p>
+
             <h1>APRESENTAÇÃO</h1>
             <p>É com grande prazer que o FUTchurras, a melhor pelada do país, vem anunciar o tão aguardado 3º Torneio
                 FUTchurras. Com início marcado para o dia 03/05/2023, esse evento promete reunir equipes apaixonadas
